@@ -59,6 +59,10 @@ personagem.addEventListener('mouseenter', () => {
         const descricaoPersonagem = document.getElementById ('descricao-personagem');
         descricaoPersonagem.innerText = personagem.getAttribute('data-description');
 
+        var musica = document.getElementById("background_music");
+        musica.play();
+
+
 
 })
 })
