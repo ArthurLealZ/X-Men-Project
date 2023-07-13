@@ -28,7 +28,7 @@ personagem.addEventListener('mouseenter', () => {
 //Responsividade para o celular
 
         if(window.innerWidth < 450) {
-        window.scrollTo({top: 0, behavior: 'sm'})
+        window.scrollTo({top: 0, behavior: 'smooth'});
         }
 
 //Verificar se já exista um personagem selecionado, se sim, devemos remover a seleção dele
