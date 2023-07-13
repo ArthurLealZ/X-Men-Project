@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X-Men</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500&family=Righteous&family=Sarala&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">    
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/responsivo.css">
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <img class="logo" src="./src/imagens/logo.svg" alt="Logo dos X-Men">
+
+    </header>
+
+    <main class="selecao_de_personagem">
+        <section class="personagens">
+            <h1 class="titulo">Selecione um Personagem</h1>
+            <ul class="lista_de_personagens">
+                <li class="personagem selecionado" id="ciclope" data-name="Ciclope" data-description="Scott Summers possui o poder mutante de emitir rajadas de energia óptica através de seus olhos, que destroem
+                tudo ao seu redor. Com isso ele usa um visor especial de quartzo rubi para canalizar e controlar suas rajadas.">
+                    <img src="./src/imagens/card-ciclope.jpg" alt="ciclope">
+                </li>
+
+                <li class="personagem" id="jean-grey" data-name="Jean Grey" data-description="Jean Grey também conhecida como Fênix, é uma mutante com habilidades psíquicas poderosas. Ela possui telepatia avançada, permitindo que leia mentes e se comunique telepaticamente. ">
+                    <img src="./src/imagens/card-jean-grey.jpg" alt="jean grey">
+                </li>
+
+                <li class="personagem" id="lince-negra" data-name="Lince Negra" data-description="Lince Negra também conhecida como Kitty Pryde, é uma mutante com uma habilidade única. Ela possui a capacidade de atravessar objetos sólidos e se tornar intangível, permitindo que passe através de paredes e outros obstáculos físicos.">
+                    <img src="./src/imagens/card-lince-negra.jpg" alt="lince negra">
+                </li>
+
+                <li class="personagem" id="magneto" data-name="Magneto" data-description="Magneto também conhecido como Erik Lehnsherr,é um mutante com habilidade de levitar objetos metálicos, moldá-los em formas diferentes e lançá-los como projéteis poderosos.">
+                    <img src="./src/imagens/card-magneto.jpg" alt="magneto">
+                </li>
+
+                <li class="personagem" id="noturno" data-name="Noturno" data-description="Noturno também conhecido como Kurt Wagner, é um mutante com habilidades acrobáticas e possui a capacidade de se teleportar instantaneamente de um lugar para outro." >
+                    <img src="./src/imagens/card-noturno.jpg" alt="noturno">
+                </li>
+
+                <li class="personagem" id="tempestade" data-name="Tempestade" data-description="Tempestade também conhecida como Ororo Munroe, é uma mutante com o poder de controlar o clima. Ela possui a habilidade de manipular elementos atmosféricos e desencadear tempestades poderosas.">
+                    <img src="./src/imagens/card-tempestade.jpg" alt="tempestade">
+                </li>
+
+                <li class="personagem" id="vampira" data-name="Vampira" data-description="Vampira também conhecida como Anna Marie, é uma mutante com o poder de absorver a energia vital e os poderes de outras pessoas por meio do toque físico.">
+                    <img src="./src/imagens/card-vampira.jpg" alt="vampira">
+                </li>
+
+                <li class="personagem" id="wolverine" data-name="Wolverine" data-description="Wolverine, também conhecido como Logan, é um mutante com a habilidade de se curar ferimentos rapidamente, regenerando tecidos e até mesmo se recuperando de lesões graves. Suas garras de adamantium, que saem de suas mãos, são armas afiadas e mortais que ele utiliza em combate.">
+                    <img src="./src/imagens/card-wolverine.jpg" alt="wolverine">
+                </li>
+            </ul>
+        </section>
+
+        <section class="personagem_selecionado">
+            <img class="personagem_grande" src="./src/imagens/card-ciclope.png" alt="personagem_selecionado">
+            <div class="informacoes_personagem" id="descricao_personagem">
+                <h2 class="nome_personagem" id="nome_personagem">
+                    Ciclope
+                </h2>
+                <p class="descricao_personagem" id="descricao-personagem"> Scott Summers possui o poder mutante de
+                    emitir rajadas de energia óptica através de seus olhos que destroem tudo ao seu redor. Com isso ele usa um visor especial de quartzo rubi para canalizar e controlar suas rajadas.
+                </p>
+            </div>
+
+        </section>
+    </main>
+    <script src="./Js/index.js"></script>
+</body> 
+
+</html>
