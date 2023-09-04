@@ -1,1 +1,1 @@
-vamos abrir no Vs Code 
+Projeto dos X mens feito no Curso do DEVQUEST
